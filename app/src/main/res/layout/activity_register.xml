@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/lightCream">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp">
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="227dp"
+            android:layout_height="202dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Create Account"
+            style="@style/TextAppearance.ChiMatcha.H2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_logo" />
+
+        <TextView
+            android:id="@+id/tv_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Join us for the perfect matcha experience"
+            style="@style/TextAppearance.ChiMatcha.Caption"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+        <TextView
+            android:id="@+id/tv_reg_username_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Username"
+            style="@style/TextAppearance.ChiMatcha.FormLabel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_subtitle" />
+
+        <EditText
+            android:id="@+id/et_reg_username"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_text_bg"
+            android:hint="Enter your username"
+            android:fontFamily="@font/dm_sans"
+            android:textSize="16sp"
+            android:textColorHint="@color/grey"
+            android:textColor="@color/black"
+            android:inputType="text"
+            android:paddingHorizontal="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_reg_username_label" />
+
+        <TextView
+            android:id="@+id/tv_reg_password_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Password"
+            style="@style/TextAppearance.ChiMatcha.FormLabel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_reg_username" />
+
+        <EditText
+            android:id="@+id/et_reg_password"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_text_bg"
+            android:hint="Enter your password"
+            android:fontFamily="@font/dm_sans"
+            android:textSize="16sp"
+            android:textColorHint="@color/grey"
+            android:textColor="@color/black"
+            android:inputType="textPassword"
+            android:paddingHorizontal="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_reg_password_label" />
+
+        <TextView
+            android:id="@+id/tv_reg_confirm_password_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Confirm Password"
+            style="@style/TextAppearance.ChiMatcha.FormLabel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_reg_password" />
+
+        <EditText
+            android:id="@+id/et_reg_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_text_bg"
+            android:hint="Confirm your password"
+            android:fontFamily="@font/dm_sans"
+            android:textSize="16sp"
+            android:textColorHint="@color/grey"
+            android:textColor="@color/black"
+            android:inputType="textPassword"
+            android:paddingHorizontal="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_reg_confirm_password_label" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="32dp"
+            android:text="Register"
+            android:textAppearance="@style/TextAppearance.ChiMatcha.Button"
+            app:cornerRadius="26dp"
+            app:backgroundTint="@color/green"
+            app:layout_constraintTop_toBottomOf="@+id/et_reg_confirm_password" />
+
+        <TextView
+            android:id="@+id/tv_login_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:text="Already have an account? Login here"
+            style="@style/TextAppearance.ChiMatcha.FormLabel"
+            android:textColor="@color/darkGreen"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_register" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

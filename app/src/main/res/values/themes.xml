@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.ChiMatcha" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="Theme.ChiMatcha" parent="Base.Theme.ChiMatcha" />
+
+    <style name="TextAppearance.ChiMatcha.H1" parent="TextAppearance.Material3.DisplayLarge">
+        <item name="android:fontFamily">@font/dm_serif_display</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextAppearance.ChiMatcha.H2" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:fontFamily">@font/dm_serif_display</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/darkGreen</item>
+    </style>
+
+    <style name="TextAppearance.ChiMatcha.Button" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:fontFamily">@font/dm_sans</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextAppearance.ChiMatcha.FormLabel" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">@font/dm_sans</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextAppearance.ChiMatcha.Caption" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:fontFamily">@font/dm_sans</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+</resources>

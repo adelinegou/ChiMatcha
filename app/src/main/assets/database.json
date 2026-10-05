@@ -1,0 +1,159 @@
+{
+  "Banner": [
+    {
+      "url": "banner1"
+    },
+    {
+      "url": "banner2"
+    },
+    {
+      "url": "banner3"
+    },
+    {
+      "url": "banner4"
+    },
+    {
+      "url": "banner5"
+    }
+  ],
+  "Category": [
+    {
+      "id": 0,
+      "title": "Classic Matcha"
+    },
+    {
+      "id": 1,
+      "title": "Coffee Fusions"
+    },
+    {
+      "id": 2,
+      "title": "Fruity Matcha"
+    }
+  ],
+  "Popular": [
+    {
+      "description": "A vibrant and healthy option, our signature Matcha Latte combines high-quality matcha green tea with steamed milk for a creamy, earthy, and refreshing beverage.",
+      "extra": "Premium Matcha, Milk, Ice",
+      "picUrl": [
+        "matcha_latte"
+      ],
+      "price": 45000,
+      "rating": 4.8,
+      "title": "Matcha Latte"
+    },
+    {
+      "description": "A bold collision of earthy matcha and robust espresso layers. Perfect for those who need a heavy caffeine kick with a smooth, grassy finish.",
+      "extra": "Premium Matcha, Espresso Shot, Milk",
+      "picUrl": [
+        "matcha_espresso"
+      ],
+      "price": 55000,
+      "rating": 4.7,
+      "title": "Matcha Espresso"
+    },
+    {
+      "description": "A sweet and vibrant mix of fresh, chunky strawberry compote layered beneath our classic iced matcha latte. A beautifully aesthetic and delicious treat.",
+      "extra": "Premium Matcha, Strawberry Compote, Milk",
+      "picUrl": [
+        "matcha_strawberry"
+      ],
+      "price": 60000,
+      "rating": 4.9,
+      "title": "Strawberry Matcha"
+    }
+  ],
+  "Items": [
+    {
+      "categoryId": "0",
+      "description": "A vibrant and healthy option, our signature Matcha Latte combines high-quality matcha green tea with steamed milk for a creamy, earthy, and refreshing beverage.",
+      "extra": "Premium Matcha, Milk, Ice",
+      "picUrl": [
+        "matcha_latte"
+      ],
+      "price": 45000,
+      "rating": 4.8,
+      "title": "Matcha Latte"
+    },
+    {
+      "categoryId": "0",
+      "description": "Our classic iced matcha latte elevated to the next level, generously topped with a thick, sweet, and airy cream mousse layer that melts perfectly into the tea.",
+      "extra": "Premium Matcha, Milk, Sweet Cream Mousse",
+      "picUrl": [
+        "matcha_mousse"
+      ],
+      "price": 58000,
+      "rating": 4.6,
+      "title": "Matcha Mousse"
+    },
+    {
+      "categoryId": "1",
+      "description": "A bold collision of earthy matcha and robust espresso layers. Perfect for those who need a heavy caffeine kick with a smooth, grassy finish.",
+      "extra": "Premium Matcha, Espresso Shot, Milk",
+      "picUrl": [
+        "matcha_espresso"
+      ],
+      "price": 55000,
+      "rating": 4.7,
+      "title": "Matcha Espresso"
+    },
+    {
+      "categoryId": "1",
+      "description": "A refreshing iced coffee blended seamlessly with a subtle hint of organic matcha. A lighter take on the espresso fusion.",
+      "extra": "Premium Matcha, Cold Brew Coffee, Milk",
+      "picUrl": [
+        "matcha_coffee"
+      ],
+      "price": 50000,
+      "rating": 4.4,
+      "title": "Matcha Coffee"
+    },
+    {
+      "categoryId": "2",
+      "description": "A tropical twist featuring sweet, rich mango puree perfectly layered beneath our refreshing iced matcha. A perfect balance of sweet and earthy.",
+      "extra": "Premium Matcha, Mango Puree, Milk",
+      "picUrl": [
+        "matcha_mango"
+      ],
+      "price": 60000,
+      "rating": 4.8,
+      "title": "Mango Matcha"
+    },
+    {
+      "categoryId": "2",
+      "description": "A sweet and vibrant mix of fresh, chunky strawberry compote layered beneath our classic iced matcha latte. A beautifully aesthetic and delicious treat.",
+      "extra": "Premium Matcha, Strawberry Compote, Milk",
+      "picUrl": [
+        "matcha_strawberry"
+      ],
+      "price": 60000,
+      "rating": 4.9,
+      "title": "Strawberry Matcha"
+    }
+  ],
+  "branches": [
+    {
+      "id": 1,
+      "name": "ChiMatcha Kemanggisan",
+      "location": "Jakarta Barat",
+      "road": "Jl. Kemanggisan III No. 45, Palmerah, Jakarta Barat",
+      "opening_hours": "08:00 AM - 10:00 PM",
+      "image": "logo"
+    },
+    {
+      "id": 2,
+      "name": "ChiMatcha Alam Sutera",
+      "location": "Tangerang",
+      "road": "Jl. Jalur Sutera Barat Kav. 21, Alam Sutera, Tangerang",
+      "opening_hours": "07:00 AM - 09:00 PM",
+      "image": "logo"
+    },
+    {
+      "id": 3,
+      "name": "ChiMatcha Senayan",
+      "location": "Jakarta Pusat",
+      "road": "FX Sudirman, Jl. Jenderal Sudirman, Senayan, Jakarta Pusat",
+      "opening_hours": "10:00 AM - 10:00 PM",
+      "image": "logo"
+    }
+  ]
+}
